@@ -7,7 +7,7 @@ describe('Bowling', function() {
       expect(new Bowling(rolls).score()).toEqual(0);
     });
 
-    xit('should be able to score a game with all open frames', function() {
+    it('should be able to score a game with all open frames', function() {
       var rolls = [3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6];
       expect(new Bowling(rolls).score()).toEqual(90);
     });
