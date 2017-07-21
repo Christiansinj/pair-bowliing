@@ -12,7 +12,7 @@ describe('Bowling', function() {
       expect(new Bowling(rolls).score()).toEqual(90);
     });
 
-    xit('a spare followed by zeros is worth ten points', function() {
+    it('a spare followed by zeros is worth ten points', function() {
       var rolls = [6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
       expect(new Bowling(rolls).score()).toEqual(10);
     });
